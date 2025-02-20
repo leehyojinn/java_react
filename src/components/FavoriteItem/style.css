@@ -1,0 +1,45 @@
+.board-list-item {
+    padding: 25px;
+    display: flex;
+    gap: 30px;
+    background-color: #fff;
+    align-items: center;
+    cursor: pointer;
+}
+
+.board-list-item:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.board-list-item-main-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.board-list-item-top {
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.board-list-item-profile-box {
+    width: 32px;
+    aspect-ratio: 1/1;
+}
+
+.board-list-item-profile-image {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size : cover;
+}
+
+.board-list-item-write-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
